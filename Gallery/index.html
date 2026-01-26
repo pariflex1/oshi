@@ -3,19 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Masonry webp?raw=true Gallery</title>
+<title>Masonry WebP Gallery</title>
 
 <style>
   body {
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     background: #f4f4f4;
     font-family: Arial, sans-serif;
-  }
-
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
   }
 
   .masonry {
@@ -25,32 +20,32 @@
     margin: auto;
   }
 
-  .masonry picture {
-    display: block;
-    margin-bottom: 15px;
-    break-inside: avoid;
-  }
-
   .masonry img {
     width: 100%;
+    margin-bottom: 15px;
     border-radius: 10px;
+    break-inside: avoid;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
   }
 
   .masonry img:hover {
-    transform: scale1.03;
-    box-shadow: 0 10px 20px rgba0,0,0,0.2;
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
 
-  @media max-width: 1024px {
+  /* Tablet */
+  @media (max-width: 1024px) {
     .masonry { column-count: 3; }
   }
 
-  @media max-width: 768px {
+  /* Mobile */
+  @media (max-width: 768px) {
     .masonry { column-count: 2; }
   }
 
-  @media max-width: 480px {
+  /* Small mobile */
+  @media (max-width: 480px) {
     .masonry { column-count: 1; }
   }
 </style>
@@ -58,69 +53,35 @@
 
 <body>
 
-
 <div class="masonry">
-
-  <picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/1.webp?raw=true" loading="lazy"> 
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/2.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/3.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/4.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/5.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/6.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/7.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/8.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/9.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/10.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/11.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/12.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/13.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/14.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/15.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/16.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/17.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/18.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/19.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/20.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/21.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/22.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/23.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/24.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/25.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/26.webp?raw=true" loading="lazy">
-  </picture>
-        <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/27.webp?raw=true" loading="lazy">
-  </picture>
-     
-  
-
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/1.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/2.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/3.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/4.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/5.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/6.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/7.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/8.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/9.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/10.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/11.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/12.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/13.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/14.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/15.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/16.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/17.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/18.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/19.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/20.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/21.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/22.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/23.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/24.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/25.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/26.webp?raw=true" loading="lazy">
+  <img src="https://github.com/pariflex1/oshi/blob/gh-pages/Gallery/image/27.webp?raw=true" loading="lazy">
 </div>
 
 </body>
 </html>
-
