@@ -1,274 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <!-- Open Graph / WhatsApp -->
-<meta property="og:title" content="House in Khati Baba" />
-<meta property="og:description" content="Near Manoj Marriage Garden" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://oshi.jhansiproperty.com/" />
-
-<meta property="og:image" content="https://oshi.jhansiproperty.com/Images/og.jpg" />
-<meta property="og:image:secure_url" content="https://oshi.jhansiproperty.com/Images/og.jpg" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-
-<meta name="twitter:card" content="summary_large_image" />
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background-color: #FFFFFF;
-      text-align: center;
-      overflow-x: hidden;
-      font-family: sans-serif;
-    }
-    video, img {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-      height: auto;
-    }
-    ::-webkit-scrollbar {
-      display: none;
-    }
-    form > div {
-      margin: 15px;
-    }
-    input, textarea, button {
-      font-size: 1rem;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
-    .form-section-title {
-      text-align: center;
-      margin: 30px 0 10px;
-      font-size: 1.5rem;
-      color: #333;
-    }
-    input, textarea {
-      width: 100%;
-    }
-    .options {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 15px;
-    }
-    .option-btn {
-      background: #EEF2FF;
-      border: 1px solid #ABCAFF;
-      cursor: pointer;
-      color: #16423C;
-      padding: 10px 15px;
-    }
-    .option-btn.selected {
-      background: #00BE09;
-      color: white;
-      border-color: #fff;
-    }
-    button[type="submit"] {
-      background: #4CAF50;
-      color: white;
-      width: 95%;
-      cursor: pointer;
-      margin: 0 15px;
-    }
-    #popup {
-      display: none;
-      position: fixed;
-      top: 10%;
-      left: 5%;
-      right: 5%;
-      background: #ffffff;
-      border: 2px solid #4CAF50;
-      padding: 20px;
-      z-index: 1000;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      border-radius: 8px;
-      max-width: 90%;
-      text-align: center;
-    }
-    #popup h2 {
-      color: #4CAF50;
-      margin-top: 0;
-    }
-    #popup p {
-      margin: 10px 0;
-      font-size: 1rem;
-    }
-    #popup button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      background: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    @media screen and (max-width: 500px) {
-      .options {
-        flex-direction: column;
-      }
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House in Khati Baba</title>
+    <meta name="description" content="Near Manoj Marrige Garden" />
+    <meta property="og:title" content="House in Khati Baba" />
+    <meta property="og:description" content="Near Manoj Marrige Garden" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/pariflex1/oshi/refs/heads/gh-pages/Images/og.jpg?raw=true" />
+    <style>
+        html, body { margin: 0; padding: 0; background-color: #FFFFFF; text-align: center; overflow-x: hidden; font-family: sans-serif; } video, img { display: block; margin: 0 auto; max-width: 100%; height: auto; } ::-webkit-scrollbar { display: none; } form > div { margin: 15px; } input, textarea, button { font-size: 1rem; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; } .form-section-title { text-align: center; margin: 30px 0 10px; font-size: 1.5rem; color: #333; } input, textarea { width: 100%; } .options { display: flex; flex-wrap: wrap; gap: 10px; margin: 15px; } .option-btn { background: #EEF2FF; border: 1px solid #ABCAFF; cursor: pointer; color: #16423C; padding: 10px 15px; } .option-btn.selected { background: #00BE09; color: white; border-color: #fff; } button[type="submit"] { background: #4CAF50; color: white; width: 95%; cursor: pointer; margin: 0 15px; } #popup { display: none; position: fixed; top: 10%; left: 5%; right: 5%; background: #ffffff; border: 2px solid #4CAF50; padding: 20px; z-index: 1000; box-shadow: 0 4px 12px rgba(0,0,0,0.2); border-radius: 8px; max-width: 90%; text-align: center; } #popup h2 { color: #4CAF50; margin-top: 0; } #popup p { margin: 10px 0; font-size: 1rem; } #popup button { margin-top: 10px; padding: 10px 20px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; } @media screen and (max-width: 500px) { .options { flex-direction: column; } }
+    </style>
 </head>
+
 <body>
-
-  <!-- Video -->
-  <video id="myVideo" autoplay playsinline loop muted>
-    <source src="Images/video.webm" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-
-  <!-- Images -->
-  <img src="Images/2.webp" loading="lazy" alt="House View" />
-  <img src="Images/3.webp" loading="lazy" alt="House View" />
-  <img src="Images/4.webp" loading="lazy" alt="House View" />
-  <img src="Images/5.webp" loading="lazy" alt="House View" />
-  <img src="Images/6.webp" loading="lazy" alt="House View" />
-  <img src="Images/7.webp" loading="lazy" alt="House View" />
-  <img src="Images/8.webp" loading="lazy" alt="House View" />
-  <img src="Images/9.webp" loading="lazy" alt="House View" />
-  <img src="Images/10.webp" loading="lazy" alt="House View" />
-  <img src="Images/11.webp" loading="lazy" alt="House View" />
-  <img src="Images/12.webp" loading="lazy" alt="House View" />
-  
-
-  <!-- Action Images -->
-  <a href="tel:918400638468">
-    <img src="Images/15.webp?raw=true" loading="lazy" alt="Call Now" />
-  </a>
-  <a href="https://maps.app.goo.gl/GmaWFfAaYcsEHubQ9" target="_blank">
-    <img src="Images/16.webp?raw=true" loading="lazy" alt="Open in Maps" />
-  </a>
-  <a href="https://pariflex1.github.io/oshi/Gallery">
-    <img src="Images/17.webp?raw=true" loading="lazy" alt="Open in Maps" />
-  </a>
-  
-  
+    <!-- Video -->
+    <video id="myVideo" autoplay playsinline loop muted>
+        <source src="Images/video.webm" type="video/webm"> Your browser does not support the video tag. </video>
+    <!-- Images --><img src="Images/2.webp" loading="lazy" alt="House View" /> <img src="Images/3.webp" loading="lazy" alt="House View" /> <img src="Images/4.webp" loading="lazy" alt="House View" /> <img src="Images/5.webp" loading="lazy" alt="House View" /> <img src="Images/6.webp"
+    loading="lazy" alt="House View" /> <img src="Images/7.webp" loading="lazy" alt="House View" /> <img src="Images/8.webp" loading="lazy" alt="House View" /> <img src="Images/9.webp" loading="lazy" alt="House View" /> <img src="Images/10.webp" loading="lazy"
+    alt="House View" /> <img src="Images/11.webp" loading="lazy" alt="House View" /> <img src="Images/12.webp" loading="lazy" alt="House View" />
+    <!-- Action Images -->
+    <a href="tel:918400638468"> <img src="Images/15.webp?raw=true" loading="lazy" alt="Call Now" /> </a>
+    <a href="https://maps.app.goo.gl/GmaWFfAaYcsEHubQ9" target="_blank"> <img src="Images/16.webp?raw=true" loading="lazy" alt="Open in Maps" /> </a>
+    <a href="https://pariflex1.github.io/oshi/Gallery"> <img src="Images/17.webp?raw=true" loading="lazy" alt="Open in Maps" /> </a>
     <!-- Contact Form -->
-  <form id="contactForm">
-    <h2 class="form-section-title">Inquiry About</h2>
-    <div class="options">        
-      <button type="button" class="option-btn" data-value="3BHK ₹45Lakh">3BHK ₹45Lakh</button>
-      <button type="button" class="option-btn" data-value="2BHK ₹41Lakh">2BHK ₹41Lakh</button>
-      <button type="button" class="option-btn" data-value="2BHK ₹40Lakh">2BHK ₹40Lakh</button>
-      </div>
-
-    <input type="hidden" id="about" name="About" required>
-    <div><input type="text" name="Client Name" placeholder="Name" required></div>
-    <div><input type="tel" id="contact" name="Contact" placeholder="Contact (10 digits)" pattern="[0-9]{10}" required></div>
-    <div><textarea name="Note" placeholder="Your Note..." rows="2" required></textarea></div>
-
-    <!-- Hidden Fields -->
-    <input type="hidden" name="Lead From" value="Website">
-    <input type="hidden" name="Site" value="Oshi">
-    <input type="hidden" name="Site Url" id="pageUrl">
-    <input type="hidden" name="Agent Name" value="Deepak Raja">
-    <input type="hidden" name="Client Contact" value="918400517771">
-
-    <div><button type="submit">Submit</button></div>
-  </form>
- 
-  <!-- Thank You Popup -->
-  <div id="popup">
-    <h2>Thank You!</h2>
-    <div id="popupMessage"></div>
-    <button onclick="document.getElementById('popup').style.display='none'">Close</button>
-  </div>
-
-  <script>
-    const optionButtons = document.querySelectorAll('.option-btn');
-    const aboutInput = document.getElementById('about');
-    const form = document.getElementById('contactForm');
-    const submitBtn = form.querySelector('button[type="submit"]');
-
-    optionButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        btn.classList.toggle('selected');
-        const selected = Array.from(optionButtons)
-          .filter(b => b.classList.contains('selected'))
-          .map(b => b.dataset.value);
-        aboutInput.value = selected.join(', ');
-      });
-    });
-
-    document.getElementById('pageUrl').value = location.href;
-
-    form.addEventListener('submit', async function(e) {
-      e.preventDefault();
-
-      const name = form["Client Name"].value.trim();
-      const rawContact = form.Contact.value.trim();
-      const note = form.Note.value.trim();
-      const about = form.About.value.trim();
-
-      if (!/^\d{10}$/.test(rawContact)) {
-        alert('Please enter a valid 10-digit contact number.');
-        return;
-      }
-
-      if (!about) {
-        alert('Please select at least one option.');
-        return;
-      }
-
-      const fullContact = '91' + rawContact;
-      form.Contact.value = fullContact;
-
-      const formData = {};
-      Array.from(form.elements).forEach(el => {
-        if (el.name) formData[el.name] = el.value.trim();
-      });
-
-      // Disable button while submitting
-      submitBtn.disabled = true;
-      submitBtn.innerText = "Submitting...";
-
-      // Submit to Google Apps Script
-      const formDataObj = new FormData(form);
-      fetch('https://script.google.com/macros/s/AKfycbzl2qAQSK0nCZH68HuIFxCFgccw_XH73JjCKbO9MnTAbd5JYgH-8_nifH50hVvrbT6H/exec', {
-        method: 'POST',
-        body: formDataObj
-      });
-
-      // Submit to Make.com
-      fetch('https://hook.eu2.make.com/s6552vsetlpobakdap28hz5bjdfbn1h9', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
-      });
-
-      // Show popup
-      document.getElementById('popupMessage').innerHTML = `
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Contact:</strong> ${fullContact}</p>
-        <p><strong>Inquiry For:</strong> ${about}</p>
-        <p><strong>Note:</strong> ${note}</p>
-      `;
-      document.getElementById('popup').style.display = 'block';
-
-      // Reset form
-      form.reset();
-      aboutInput.value = '';
-      optionButtons.forEach(btn => btn.classList.remove('selected'));
-      submitBtn.disabled = false;
-      submitBtn.innerText = "Submit";
-    });
-
-    // Unmute video on user interaction
-    const video = document.getElementById('myVideo');
-    document.addEventListener('click', () => {
-      video.muted = false;
-      video.play().catch(console.warn);
-    }, { once: true });
-  
-  
- 
-  </script>
-
+    <form id="contactForm">
+        <h2 class="form-section-title">Inquiry About</h2>
+        <div class="options">
+            <button type="button" class="option-btn" data-value="3BHK ₹45Lakh">3BHK ₹45Lakh</button>
+            <button type="button" class="option-btn" data-value="2BHK ₹41Lakh">2BHK ₹41Lakh</button>
+            <button type="button" class="option-btn" data-value="2BHK ₹40Lakh">2BHK ₹40Lakh</button>
+        </div>
+        <input type="hidden" id="about" name="About" required>
+        <div>
+            <input type="text" name="Client Name" placeholder="Name" required>
+        </div>
+        <div>
+            <input type="tel" id="contact" name="Contact" placeholder="Contact (10 digits)" pattern="[0-9]{10}" required>
+        </div>
+        <div>
+            <textarea name="Note" placeholder="Your Note..." rows="2" required></textarea>
+        </div>
+        <!-- Hidden Fields -->
+        <input type="hidden" name="Lead From" value="Website">
+        <input type="hidden" name="Site" value="Oshi">
+        <input type="hidden" name="Site Url" id="pageUrl">
+        <input type="hidden" name="Agent Name" value="Deepak Raja">
+        <input type="hidden" name="Client Contact" value="918400517771">
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <!-- Thank You Popup -->
+    <div id="popup">
+        <h2>Thank You!</h2>
+        <div id="popupMessage"></div>
+        <button onclick="document.getElementById('popup').style.display='none'">Close</button>
+    </div>
+    <script>
+        const optionButtons = document.querySelectorAll('.option-btn'); const aboutInput = document.getElementById('about'); const form = document.getElementById('contactForm'); const submitBtn = form.querySelector('button[type="submit"]'); optionButtons.forEach(btn => { btn.addEventListener('click', () => { btn.classList.toggle('selected'); const selected = Array.from(optionButtons) .filter(b => b.classList.contains('selected')) .map(b => b.dataset.value); aboutInput.value = selected.join(', '); }); }); document.getElementById('pageUrl').value = location.href; form.addEventListener('submit', async function(e) { e.preventDefault(); const name = form["Client Name"].value.trim(); const rawContact = form.Contact.value.trim(); const note = form.Note.value.trim(); const about = form.About.value.trim(); if (!/^\d{10}$/.test(rawContact)) { alert('Please enter a valid 10-digit contact number.'); return; } if (!about) { alert('Please select at least one option.'); return; } const fullContact = '91' + rawContact; form.Contact.value = fullContact; const formData = {}; Array.from(form.elements).forEach(el => { if (el.name) formData[el.name] = el.value.trim(); }); // Disable button while submitting submitBtn.disabled = true; submitBtn.innerText = "Submitting..."; // Submit to Google Apps Script const formDataObj = new FormData(form); fetch('https://script.google.com/macros/s/AKfycbzl2qAQSK0nCZH68HuIFxCFgccw_XH73JjCKbO9MnTAbd5JYgH-8_nifH50hVvrbT6H/exec', { method: 'POST', body: formDataObj }); // Submit to Make.com fetch('https://hook.eu2.make.com/s6552vsetlpobakdap28hz5bjdfbn1h9', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(formData) }); // Show popup document.getElementById('popupMessage').innerHTML = <p><strong>Name:</strong> ${name}</p> <p><strong>Contact:</strong> ${fullContact}</p> <p><strong>Inquiry For:</strong> ${about}</p> <p><strong>Note:</strong> ${note}</p> ; document.getElementById('popup').style.display = 'block'; // Reset form form.reset(); aboutInput.value = ''; optionButtons.forEach(btn => btn.classList.remove('selected')); submitBtn.disabled = false; submitBtn.innerText = "Submit"; }); // Unmute video on user interaction const video = document.getElementById('myVideo'); document.addEventListener('click', () => { video.muted = false; video.play().catch(console.warn); }, { once: true });
+    </script>
 </body>
+
 </html>
